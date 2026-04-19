@@ -1,0 +1,9 @@
+@url = https://dev.orderzone.net/webservice_ionic/oraApiNew
+
+POST https://dev.orderzone.net/webservice_ionic/oraApiNew/employee/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "sung@gmail.com",
+  "password": "12345678"
+}
